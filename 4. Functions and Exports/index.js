@@ -66,7 +66,7 @@ console.log("With increment:", modifyArray(numbers, incrementByOne))
 // Useful Tutorial: https://youtu.be/qgRUr-YUk1Q?si=ceAaeHJfCYCmeNWx
 // Your code here
 console.log("\n4.4")
-import { add, PI } from './mathUtils.mjs'
+import { add, PI } from './mathUtils.js'
 const result = add(5, 10)
 console.log("Add method: ", result)
 console.log("PI constant", PI)
@@ -76,7 +76,7 @@ console.log("PI constant", PI)
 // Useful Tutorial: https://youtu.be/qgRUr-YUk1Q?si=ceAaeHJfCYCmeNWx
 // Your code here
 console.log("\n4.5")
-import isPalindrome from './isPalindrome.mjs'
+import isPalindrome from './isPalindrome.js'
 console.log("Given word is a", isPalindrome('tenet'), "palindrome word.")
 
 // Checkpoint 4.3 What does the require function and module.exports variable do?
